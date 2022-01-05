@@ -29,4 +29,7 @@ flutter pub add json_annotation
 flutter pub add --dev build_runner
 flutter pub add --dev cloud_firestore_odm_generator
 flutter pub add --dev json_serializable
+
+flutter pub run build_runner build --delete-conflicting-outputs
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```

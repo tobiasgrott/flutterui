@@ -32,4 +32,6 @@ flutter pub add --dev json_serializable
 
 flutter pub run build_runner build --delete-conflicting-outputs
 flutter pub run build_runner watch --delete-conflicting-outputs
+
+flutter pub add flutterfire_ui
 ```

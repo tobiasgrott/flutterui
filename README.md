@@ -20,4 +20,13 @@ samples, guidance on mobile development, and a full API reference.
 ```bash
 flutter create flutterui
 flutter pub add firebase_core
+flutterfire configure
+
+flutter pub add cloud_firestore
+flutter pub add cloud_firestore_odm
+flutter pub add json_annotation
+
+flutter pub add --dev build_runner
+flutter pub add --dev cloud_firestore_odm_generator
+flutter pub add --dev json_serializable
 ```

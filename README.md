@@ -33,5 +33,8 @@ flutter pub add --dev json_serializable
 flutter pub run build_runner build --delete-conflicting-outputs
 flutter pub run build_runner watch --delete-conflicting-outputs
 
+flutter pub add firebase_auth
 flutter pub add flutterfire_ui
+
+flutter pub add google_sign_in
 ```

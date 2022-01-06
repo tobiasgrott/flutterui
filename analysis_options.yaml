@@ -43,6 +43,10 @@ analyzer:
     parameter_assignments: warning
     missing_return: error
     todo: ignore
+  exclude:
+    - "build/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
 
 dart_code_metrics:
   anti-patterns:
